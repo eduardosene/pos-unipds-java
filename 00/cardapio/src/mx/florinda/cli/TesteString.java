@@ -1,5 +1,3 @@
-package mx.florinda.cli;
-
 public class TesteString {
     void main() {
         String nomeItem1 = "Refresco do Chaves";

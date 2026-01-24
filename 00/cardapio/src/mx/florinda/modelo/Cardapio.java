@@ -1,11 +1,11 @@
 package mx.florinda.modelo;
-
 import mx.florinda.modelo.isento.ItemCardapioIsento;
 
 public class Cardapio {
     private final ItemCardapio[] itens;
 
-    public Cardapio() {
+    public Cardapio(String nomeArquivo) {
+        IO.println(nomeArquivo);
         final ItemCardapio item1 = new ItemCardapio(1L, "Refresco do Chaves", "Suco de limão que parece de tamarindo e tem gosto de groselha.", 2.99, CategoriaCardapio.BEBIDAS);
         item1.setEmPromocao(false);
 
@@ -60,11 +60,11 @@ public class Cardapio {
         return precoMaiorQueLimite;
     }
 
-    public ItemCardapio getItemPorId(long idSelecionado) {
+    public mx.florinda.modelo.ItemCardapio getItemPorId(long idSelecionado) {
        return this.itens[((int) idSelecionado) - 1];
     }
 
-    public ItemCardapio[] getItens() {
+    public mx.florinda.modelo.ItemCardapio[] getItens() {
         return this.itens;
     }
 }

@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/00/cardapio/src/cardapio.iml" filepath="$PROJECT_DIR$/00/cardapio/src/cardapio.iml" />
-      <module fileurl="file://$PROJECT_DIR$/00/cardapio/cardapio2.iml" filepath="$PROJECT_DIR$/00/cardapio/cardapio2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/dev.iml" filepath="$PROJECT_DIR$/.idea/dev.iml" />
     </modules>
   </component>
