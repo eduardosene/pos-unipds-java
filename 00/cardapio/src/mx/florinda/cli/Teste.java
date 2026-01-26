@@ -3,8 +3,10 @@ package mx.florinda.cli;
 import mx.florinda.modelo.Cardapio;
 import mx.florinda.modelo.ItemCardapio;
 
+import java.io.IOException;
+
 public class Teste {
-    public static void main(String[] args) {
+    void main(String[] args) throws IOException {
         String nomeArquivo = IO.readln("Digite um nome de arquivo de itens de cardápio: ");
         Cardapio cardapio = new Cardapio(nomeArquivo);
         String linha = IO.readln("Digite um id de um item de cardápio: ");
