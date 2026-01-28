@@ -11,7 +11,7 @@ public class ItemCardapio {
     CategoriaCardapio categoria;
 
     //construtor
-    protected ItemCardapio(long id, String nome, String descricao, double preco, CategoriaCardapio categoria) {
+    public ItemCardapio(long id, String nome, String descricao, double preco, CategoriaCardapio categoria) {
         this.id = id;
         this.nome = nome;
         this.descricao = descricao;
@@ -28,7 +28,7 @@ public class ItemCardapio {
         return categoria;
     }
 
-    void setPromocao(double precoComDesconto) {
+    public void setPromocao(double precoComDesconto) {
         this.emPromocao = true;
         this.precoComDesconto = precoComDesconto;
 
