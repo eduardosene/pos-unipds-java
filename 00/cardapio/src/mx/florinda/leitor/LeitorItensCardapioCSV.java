@@ -2,23 +2,19 @@ package mx.florinda.leitor;
 
 import mx.florinda.modelo.CategoriaCardapio;
 import mx.florinda.modelo.ItemCardapio;
+import mx.florinda.modelo.LeitorItensCardapioBase;
 import mx.florinda.modelo.isento.ItemCardapioIsento;
 
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
+public class LeitorItensCardapioCSV extends LeitorItensCardapioBase {
+    private static final String SEPARADOR = ";"; //constante
 
-public class LeitorItensCardapioCSV implements LeitorItensCardapio{
+    public LeitorItensCardapioCSV(String nomeArquivo) {
+        super(nomeArquivo);
+    }
 
     @Override
-    public ItemCardapio[] processaArquivo(String nomeArquivo) throws IOException {
-        Path arquivo = Path.of("00", "cardapio", nomeArquivo);
-        String conteudoArquivo = Files.readString(arquivo);
-        String[] linhaArquivo = conteudoArquivo.split("\n");
-        ItemCardapio[] itens = new ItemCardapio[linhaArquivo.length];
-        for(int i = 0; i < linhaArquivo.length; i++){
-            String linha = linhaArquivo[i];
-                String[] partes = linha.split(";");
+    public ItemCardapio processaLinha(String linha){
+                String[] partes = linha.split(SEPARADOR);
                 long id = Long.parseLong(partes[0]);
                 String nome = partes[1];
                 String descricao = partes[2];
@@ -39,9 +35,8 @@ public class LeitorItensCardapioCSV implements LeitorItensCardapio{
                     precoDesconto = Double.parseDouble(partes[6]);
                     item.setPromocao(precoDesconto);
                 }
-                itens[i] = item;
-        }
-        return itens;
+                return item;
+
     }
 
 }
