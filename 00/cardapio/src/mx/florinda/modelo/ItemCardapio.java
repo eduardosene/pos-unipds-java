@@ -1,5 +1,7 @@
 package mx.florinda.modelo;
 
+import java.util.Objects;
+
 public class ItemCardapio {
     private final long id;
     private final String nome;
@@ -70,5 +72,30 @@ public class ItemCardapio {
 
     public CategoriaCardapio getCategoria() {
         return categoria;
+    }
+
+    @Override
+    public String toString() {
+        return "ItemCardapio{" +
+                "id=" + id +
+                ", nome='" + nome + '\'' +
+                ", descricao='" + descricao + '\'' +
+                ", emPromocao=" + emPromocao +
+                ", preco=" + preco +
+                ", precoComDesconto=" + precoComDesconto +
+                ", categoria=" + categoria +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (o == null || getClass() != o.getClass()) return false;
+        ItemCardapio that = (ItemCardapio) o;
+        return id == that.id && emPromocao == that.emPromocao && Double.compare(preco, that.preco) == 0 && Double.compare(precoComDesconto, that.precoComDesconto) == 0 && Objects.equals(nome, that.nome) && Objects.equals(descricao, that.descricao) && categoria == that.categoria;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, nome, descricao, emPromocao, preco, precoComDesconto, categoria);
     }
 }
