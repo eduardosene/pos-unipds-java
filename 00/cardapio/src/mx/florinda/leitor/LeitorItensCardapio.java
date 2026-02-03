@@ -5,13 +5,15 @@ import mx.florinda.modelo.ItemCardapio;
 import java.io.IOException;
 
 public interface LeitorItensCardapio {
-    ItemCardapio[] processaArquivo() throws IOException;
+    ItemCardapio[] processaArquivo();
     static LeitorItensCardapio criaLeitor(String nomeArquivo){
-        LeitorItensCardapio leitor = null;
+        LeitorItensCardapio leitor;
         if(nomeArquivo.endsWith(".csv")){
             leitor = new LeitorItensCardapioCSV(nomeArquivo);
         } else if (nomeArquivo.endsWith(".json")){
-            leitor = new LeitorItensCardapioJSON(nomeArquivo);
+            leitor = new LeitorItensCardapioGSON(nomeArquivo);
+        } else  {
+            throw new IllegalArgumentException("Extensão do arquivo é inválida: "+ nomeArquivo);
         }
         return leitor;
     }

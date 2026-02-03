@@ -19,6 +19,9 @@ public class ItemCardapio {
         this.descricao = descricao;
         this.preco = preco;
         this.categoria = categoria;
+        if(preco < 0 ){
+            throw new FlorindaException("Preço não pode ser negativo: " + preco);
+        }
     }
 
     //metodos
