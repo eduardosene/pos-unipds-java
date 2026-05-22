@@ -3,7 +3,9 @@ package modulo01.aula04ApisEssenciais;
 public class MainClass {
     static void main() {
         ProdutoRepo repo = new ProdutoRepo();
-        System.out.println(repo.findById(2));
+        //Produto p = repo.findById(10).orElse(new Produto(-1, "Produto inexistente",0));
+        Produto p = repo.findById(10).orElseThrow(() -> new RuntimeException("Produto inexistente"));
+        System.out.println(p.getNome());
     }
 
 }

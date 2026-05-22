@@ -1,6 +1,7 @@
 package modulo01.aula04ApisEssenciais;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 public class ProdutoRepo {
     private List<Produto> database;
@@ -12,11 +13,11 @@ public class ProdutoRepo {
             add(new Produto(3, "teclado", 100.0));
         }};
     }
-    public Produto findById(int id) {
+    public Optional<Produto> findById(int id) {
         for( Produto p : database ){
-            if(p.getId() == id) return p;
+            if(p.getId() == id) return Optional.of(p);
         }
-        return null;
+        return Optional.ofNullable(null);
     };
 
 
