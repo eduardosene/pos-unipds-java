@@ -1,3 +1,5 @@
+package  modulo01.aula03EstruturasDeDados;
+
 import java.util.Objects;
 
 public class Produto {
@@ -13,7 +15,7 @@ public class Produto {
 
     @Override
     public String toString() {
-        return "Produto{" +
+        return "aula04ApisEssenciais.aula03EstruturasDeDados.Produto{" +
                 "id=" + id +
                 ", nome='" + nome + '\'' +
                 ", preco=" + preco +

@@ -1,3 +1,5 @@
+package  modulo01.aula03EstruturasDeDados;
+
 import java.util.*;
 //LIST: Permite elementos duplicados
 //Ordem dos elementos é a ordem de inserção
