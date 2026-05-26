@@ -1,4 +1,4 @@
-package modulo01.aula04ApisEssenciais;
+package modulo01.aula04ApisEssenciais.OptionalProject;
 
 public class MainClass {
     static void main() {

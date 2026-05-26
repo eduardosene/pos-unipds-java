@@ -1,9 +1,9 @@
-package modulo01.aula04ApisEssenciais;
-
-import java.util.Objects;
+package modulo01.aula04ApisEssenciais.ReflectionProject;
 
 public class Produto {
+        @Visible
         private int id;
+        @Visible
         private String nome;
         private double preco;
 
