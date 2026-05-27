@@ -1,4 +1,4 @@
-package modulo01.aula6ErrosExcecoes;
+package modulo01.aula06ErrosExcecoes;
 
 public class Produto {
     private int id;
