@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="25d51654-3834-4791-87bc-68488b719164" name="Changes" comment="modulo 01: aula 07">
+      <change beforePath="$PROJECT_DIR$/modulo01/aula07Streams/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/modulo01/aula07Streams/MainClass.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="module-info" />
+        <option value="AnnotationType" />
+        <option value="Exception" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;eduardosene&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/eduardosene/pos-unipds-java.git&quot;,
+    &quot;accountId&quot;: &quot;f2809e90-6d06-4bfa-8ffd-4a391ced791b&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="38huV1VtRzgbCiNp9rX7P3m6KgT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Teste.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TesteObjetos.executor&quot;: &quot;Run&quot;,
+    &quot;Application.aula04ApisEssenciais.MainClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.modulo01.aula04ApisEssenciais.LocalDateProject.MainClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.modulo01.aula04ApisEssenciais.MainClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.modulo01.aula04ApisEssenciais.ReflectionProject.MainClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.modulo01.aula04ApisEssenciais.RegexProject.MainClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.modulo01.aula05ManipulaçãoArquivos.BenchmarkIO.MainClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.modulo01.aula05ManipulaçãoArquivos.GeradorDeArquivoGigante.MainClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.modulo01.aula07Streams.MainClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.modulo01.aula6ErrosExcecoes.MainClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.modulo01.aula6ErrosExceções.MainClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.mx.florinda.cli.Teste.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/dev&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dev\modulo01\aula05ManipulaçãoArquivos\BenchmarkIO" />
+      <recent name="C:\dev\modulo01\aula05ManipulaçãoArquivos" />
+      <recent name="C:\dev\modulo01\aula02PilaresPOO" />
+      <recent name="C:\dev\01\02_PILARES_POO" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="modulo01.aula04ApisEssenciais.ReflectionProject" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.modulo01.aula07Streams.MainClass">
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modulo01.aula04ApisEssenciais.CypherProject.MainClass" />
+      <module name="dev" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modulo01.aula04ApisEssenciais.CypherProject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="modulo01.aula05ManipulaçãoArquivos.BenchmarkIO.MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modulo01.aula05ManipulaçãoArquivos.BenchmarkIO.MainClass" />
+      <module name="dev" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modulo01.aula05ManipulaçãoArquivos.BenchmarkIO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="modulo01.aula05ManipulaçãoArquivos.GeradorDeArquivoGigante.MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modulo01.aula05ManipulaçãoArquivos.GeradorDeArquivoGigante.MainClass" />
+      <module name="dev" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modulo01.aula05ManipulaçãoArquivos.GeradorDeArquivoGigante.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="modulo01.aula06ErrosExcecoes.MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modulo01.aula06ErrosExcecoes.MainClass" />
+      <module name="dev" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modulo01.aula06ErrosExcecoes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="modulo01.aula07Streams.MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="modulo01.aula07Streams.MainClass" />
+      <module name="dev" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modulo01.aula07Streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.modulo01.aula07Streams.MainClass" />
+        <item itemvalue="Application.modulo01.aula06ErrosExcecoes.MainClass" />
+        <item itemvalue="Application.modulo01.aula05ManipulaçãoArquivos.BenchmarkIO.MainClass" />
+        <item itemvalue="Application.modulo01.aula05ManipulaçãoArquivos.GeradorDeArquivoGigante.MainClass" />
+        <item itemvalue="Application.MainClass" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.138" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.29346.138" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25d51654-3834-4791-87bc-68488b719164" name="Changes" comment="" />
+      <created>1769264145013</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1769264145013</updated>
+      <workItem from="1769264145951" duration="6141000" />
+      <workItem from="1769466655253" duration="2964000" />
+      <workItem from="1769548215052" duration="10925000" />
+      <workItem from="1769677021849" duration="4121000" />
+      <workItem from="1770110787166" duration="2279000" />
+      <workItem from="1770456876317" duration="1059000" />
+      <workItem from="1777835658988" duration="6789000" />
+      <workItem from="1779314638956" duration="258000" />
+      <workItem from="1779356393870" duration="1722000" />
+      <workItem from="1779445782902" duration="2612000" />
+      <workItem from="1779784985574" duration="8111000" />
+      <workItem from="1779872111101" duration="4566000" />
+      <workItem from="1779959796639" duration="159000" />
+    </task>
+    <task id="LOCAL-00001" summary="inicial">
+      <option name="closed" value="true" />
+      <created>1769264257519</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1769264257519</updated>
+    </task>
+    <task id="LOCAL-00002" summary="00: corrigindo erro de estrutura">
+      <option name="closed" value="true" />
+      <created>1769266320100</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1769266320100</updated>
+    </task>
+    <task id="LOCAL-00003" summary="00: corrigindo erro de estrutura">
+      <option name="closed" value="true" />
+      <created>1769266337802</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1769266337802</updated>
+    </task>
+    <task id="LOCAL-00004" summary="00: aula 14 - praticando com arquivo csv">
+      <option name="closed" value="true" />
+      <created>1769466749040</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1769466749040</updated>
+    </task>
+    <task id="LOCAL-00005" summary="00: aula 16 - Refatoração e interfaces">
+      <option name="closed" value="true" />
+      <created>1769593140187</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1769593140187</updated>
+    </task>
+    <task id="LOCAL-00006" summary="00: aula 17 - clss, abstract e static">
+      <option name="closed" value="true" />
+      <created>1769635117747</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1769635117747</updated>
+    </task>
+    <task id="LOCAL-00007" summary="00: aula 18">
+      <option name="closed" value="true" />
+      <created>1770115471888</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1770115471888</updated>
+    </task>
+    <task id="LOCAL-00008" summary="00: aula 18">
+      <option name="closed" value="true" />
+      <created>1779314703551</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1779314703551</updated>
+    </task>
+    <task id="LOCAL-00009" summary="01:Organizando estrutura">
+      <option name="closed" value="true" />
+      <created>1779447069086</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1779447069086</updated>
+    </task>
+    <task id="LOCAL-00010" summary="01:Organizando estrutura">
+      <option name="closed" value="true" />
+      <created>1779447089341</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1779447089341</updated>
+    </task>
+    <task id="LOCAL-00011" summary="modulo 01: aula 04">
+      <option name="closed" value="true" />
+      <created>1779789604252</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1779789604253</updated>
+    </task>
+    <task id="LOCAL-00012" summary="modulo 01: aula 05">
+      <option name="closed" value="true" />
+      <created>1779795879605</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1779795879605</updated>
+    </task>
+    <task id="LOCAL-00013" summary="modulo 01: aula 05">
+      <option name="closed" value="true" />
+      <created>1779872406378</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1779872406378</updated>
+    </task>
+    <task id="LOCAL-00014" summary="modulo 01: aula 06">
+      <option name="closed" value="true" />
+      <created>1779875465579</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1779875465579</updated>
+    </task>
+    <task id="LOCAL-00015" summary="modulo 01: aula 07">
+      <option name="closed" value="true" />
+      <created>1779882299863</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1779882299863</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="inicial" />
+    <MESSAGE value="00: corrigindo erro de estrutura" />
+    <MESSAGE value="00: aula 14 - praticando com arquivo csv" />
+    <MESSAGE value="00: aula 16 - Refatoração e interfaces" />
+    <MESSAGE value="00: aula 17 - clss, abstract e static" />
+    <MESSAGE value="00: aula 18" />
+    <MESSAGE value="01:Organizando estrutura" />
+    <MESSAGE value="modulo 01: aula 04" />
+    <MESSAGE value="modulo 01: aula 05" />
+    <MESSAGE value="modulo 01: aula 06" />
+    <MESSAGE value="modulo 01: aula 07" />
+    <option name="LAST_COMMIT_MESSAGE" value="modulo 01: aula 07" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="sun.nio.fs.WindowsPath" memberName="type" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>
