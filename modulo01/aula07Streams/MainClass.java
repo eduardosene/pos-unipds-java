@@ -21,5 +21,35 @@ public class MainClass {
                .collect(Collectors.toList());
         System.out.println(ordenada);
         ordenada.add(new Veiculo("gol", "azul", 18000, 1995, 190));
+
+        List<Veiculo> corolas = lista.stream()
+                .filter( v -> v.getMarca().equalsIgnoreCase("corolla")).toList();
+
+        double precoMedio = lista.stream().mapToDouble(Veiculo::getPreco).average().orElse(0.0);
+        System.out.println("Preco Medio = "+ precoMedio);
+
+        double precoMaximo = lista.stream().mapToDouble(Veiculo::getPreco).max().orElse(0.0);
+        System.out.println("Preco Maximo = "+ precoMaximo);
+
+        double precoMinimo = lista.stream().mapToDouble(Veiculo::getPreco).min().orElse(0.0);
+        System.out.println("Preco Minimo = "+ precoMinimo);
+
+        double mediaDosCorollas = lista.stream()
+                .filter(v -> v.getMarca().equalsIgnoreCase("corolla"))
+                .mapToDouble(Veiculo::getPreco)
+                .average()
+                .orElse(0.0);
+        System.out.println("Media dos corollas = "+mediaDosCorollas);
+
+        lista.stream()
+                .filter(v -> v.getMarca().equalsIgnoreCase("corolla"))
+                .map(MainClass::converterParaMaiusculo).forEach(System.out::println);
+    }
+    public static Veiculo converterParaMaiusculo(Veiculo v ){
+        return new Veiculo(v.getMarca().toUpperCase(),
+                v.getCor().toUpperCase(),
+                v.getPreco(),
+                v.getAno(),
+                v.getVelMaxima());
     }
 }
