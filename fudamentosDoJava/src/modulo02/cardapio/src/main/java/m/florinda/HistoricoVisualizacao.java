@@ -1,0 +1,44 @@
+package m.florinda;
+
+import java.time.LocalDateTime;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Optional;
+import java.util.WeakHashMap;
+
+public class HistoricoVisualizacao {
+    private final Database database;
+    private final Map<ItemCardapio, LocalDateTime> visualizacoes = new WeakHashMap<>();
+
+    public HistoricoVisualizacao(Database database){
+        this.database = database;
+    }
+
+    public void registrarVisualizacao(Long itemId) {
+        Optional<ItemCardapio> optionalItemCardapio = database.itemCardapioPorId(itemId);
+        if(optionalItemCardapio.isEmpty()){
+            System.out.println("Item nao encontrado: " + itemId);
+            return;
+        }
+
+        ItemCardapio itemCardapio = optionalItemCardapio.get();
+        LocalDateTime agora = LocalDateTime.now();
+        visualizacoes.put(itemCardapio, agora);
+        System.out.printf("'%s' visualizado em '%s'\n", itemCardapio.nome(), agora);
+    }
+
+    public void listarVisualizacoes() {
+        if(visualizacoes.isEmpty()) {
+            System.out.println("Nenhum item foi visualizado ainda.");
+            return;
+        }
+        System.out.println("\nHistorico de visualizacoes");
+        visualizacoes.forEach((item, hora) -> System.out.printf("- %s em %s\n", item.nome(), hora ));
+        System.out.println();
+
+    }
+
+    public void mostrarTotalItensVisualizados() {
+        System.out.println("\nTotal de itens visualizados: " + visualizacoes.size());
+    }
+}

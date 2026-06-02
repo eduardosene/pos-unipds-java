@@ -8,6 +8,10 @@ public record ItemCardapio(Long id,
                            ItemCardapio.CategoriaCardapio categoria,
                            BigDecimal preco,
                            BigDecimal precoComDesconto) {
+    public ItemCardapio alterarPreco(BigDecimal novoPreco) {
+        return new ItemCardapio(id, nome, descricao, categoria, novoPreco,precoComDesconto);
+    }
+
     public enum CategoriaCardapio{
         ENTRADAS, PRATOS_PRINCIPAIS, BEBIDAS, SOBREMESAS;
     }
