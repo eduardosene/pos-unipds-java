@@ -2,12 +2,13 @@ package m.florinda;
 
 import java.math.BigDecimal;
 import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 
 import static m.florinda.ItemCardapio.CategoriaCardapio.*;
 
 public class Database {
-    private Map<Long, ItemCardapio> itensPorIds= new HashMap<>();
-    private final Map<ItemCardapio, BigDecimal> auditoriaPrecos = new IdentityHashMap<>();
+    private Map<Long, ItemCardapio> itensPorIds= new ConcurrentHashMap<>();
+    private final Map<ItemCardapio, BigDecimal> auditoriaPrecos = new ConcurrentHashMap<>();
 
     public Database() {
         ItemCardapio refrescoDoChaves = new ItemCardapio(1L, "Refresco do Chaves", """
@@ -75,5 +76,9 @@ public class Database {
             System.out.printf(" - %s: %s => %s", itemAntigo.nome(), itemAntigo.preco(), novoPreco);
             System.out.println();
         });
+    }
+
+    public void adicionaItemCardapio(ItemCardapio itemCardapio){
+        itensPorIds.put(itemCardapio.id(), itemCardapio);
     }
 }
